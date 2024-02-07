@@ -99,7 +99,6 @@ function makePredictionRequest() {
         method: "POST",
         headers: {
             "Content-Type": "application/json",
-            // Add any other headers as needed
         },
         body: JSON.stringify(formData),
     })
@@ -118,6 +117,5 @@ function makePredictionRequest() {
         })
         .catch(error => {
             console.error("Error sending data:", error);
-            // Handle errors or display a message to the user
         });
 }
