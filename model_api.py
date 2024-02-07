@@ -10,10 +10,9 @@ CORS(app)
 
 crop_model = joblib.load('crop_rfr_model.pkl')
 
-# Load the dataset and preprocess it
 dataset = pd.read_csv("data\\crop_production.csv")
-dataset.dropna(inplace=True)  # Removing null values from the dataset
-dataset = dataset[dataset['Production'] != 0]  # Removing values where production is zero
+dataset.dropna(inplace=True)
+dataset = dataset[dataset['Production'] != 0]
 dataset = pd.get_dummies(data=dataset)
 x_columns = dataset.drop('Production', axis=1).columns
 
