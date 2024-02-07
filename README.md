@@ -1,4 +1,5 @@
 **Crop Production Predictor**
+
 Welcome to the Crop Production Predictor! This tool allows users to predict the yield of a crop based on inputs such as state, district, season, crop name, and area. The prediction model utilized in this tool is based on Random Forest Regression (RFR), which has shown promising results with an R-squared score of 0.95.
 
 **Usage**
@@ -11,7 +12,9 @@ Input the following parameters:
 **Crop Name:** Enter the name of the crop.
 **Area:** Provide the area of land dedicated to cultivating the crop.
 Click on the "submit" button to obtain the yield prediction.
-Model Information
+
+**Model Information**
+
 The prediction model implemented in this tool is based on Random Forest Regression (RFR). RFR is a machine learning algorithm that utilizes an ensemble of decision trees to make predictions. It is well-suited for regression tasks and has demonstrated high accuracy in predicting crop yields.
 
 Performance
