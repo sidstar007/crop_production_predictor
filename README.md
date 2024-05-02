@@ -4,7 +4,7 @@
 
 ![image](https://github.com/sidstar007/crop_production_predictor/assets/101045408/30002972-b36b-46c3-bbc8-4e3a552459cc)
 
-**Usage:**
+<h3>Usage:</h3>
 
 To use the Crop Production Predictor, follow these simple steps:
 
@@ -22,9 +22,9 @@ Input the following parameters:
 
 Click on the "submit" button to obtain the yield prediction.
 
-**Model Information**
+<h3>Model Information</h3>
 
 The prediction model implemented in this tool is based on Random Forest Regression (RFR). RFR is a machine learning algorithm that utilizes an ensemble of decision trees to make predictions. It is well-suited for regression tasks and has demonstrated high accuracy in predicting crop yields.
 
-**Performance**
+<h3>Performance</h3>
 The performance of the prediction model is evaluated using the R-squared (R2) score, which measures the proportion of the variance in the dependent variable that is predictable from the independent variables. The R2 score obtained for this model is 0.95, indicating that it explains 95% of the variability in the crop yield data.
